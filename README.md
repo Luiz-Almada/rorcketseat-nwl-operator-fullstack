@@ -1,0 +1,1 @@
+# rorcketseat-nwl-operator-fullstack
