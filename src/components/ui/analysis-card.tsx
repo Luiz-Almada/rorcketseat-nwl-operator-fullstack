@@ -1,5 +1,5 @@
-import { cn } from "@/lib/utils"
 import { createContext, useContext } from "react"
+import { cn } from "@/lib/utils"
 
 interface AnalysisCardContextValue {
   variant: "critical" | "warning" | "good"

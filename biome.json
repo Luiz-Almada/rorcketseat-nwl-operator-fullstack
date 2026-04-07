@@ -27,6 +27,9 @@
       "recommended": true,
       "security": {
         "noDangerouslySetInnerHtml": "off"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "off"
       }
     }
   },

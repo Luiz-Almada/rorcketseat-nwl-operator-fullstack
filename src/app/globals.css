@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+  /* Light mode (default) */
   --color-background: #ffffff;
   --color-foreground: #171717;
 
@@ -16,6 +17,27 @@
   --color-input: #cbccc9;
   --color-ring: #666666;
 
+  --color-bg-page: #f5f5f5;
+  --color-bg-surface: #ffffff;
+  --color-bg-elevated: #fafafa;
+  --color-bg-input: #f5f5f5;
+
+  --color-accent-green: #10b981;
+  --color-accent-amber: #f59e0b;
+  --color-accent-red: #ef4444;
+
+  --color-text-primary: #171717;
+  --color-text-secondary: #525252;
+  --color-text-tertiary: #a3a3a3;
+
+  --color-border-primary: #e5e5e5;
+
+  --radius: 16px;
+
+  --font-mono: var(--font-mono);
+}
+
+:root.dark {
   --color-bg-page: #0c0c0c;
   --color-bg-surface: #171717;
   --color-bg-elevated: #1a1a1a;
@@ -30,24 +52,9 @@
   --color-text-tertiary: #6b7280;
 
   --color-border-primary: #2d2d2d;
-
-  --radius: 16px;
-
-  --font-mono: var(--font-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-
-    --bg-page: #0c0c0c;
-    --bg-surface: #171717;
-    --bg-elevated: #1a1a1a;
-  }
 }
 
 body {
-  background: var(--color-background);
-  color: var(--color-foreground);
+  background: var(--color-bg-page);
+  color: var(--color-text-primary);
 }
