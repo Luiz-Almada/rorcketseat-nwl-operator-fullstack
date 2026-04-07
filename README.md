@@ -4,7 +4,7 @@ Seu código merece ser julgado. E brutalmente.
 
 ## O que é o DevRoast?
 
-DevRoast é uma aplicação web que analisa seu código e o "assa" com críticas brutais e honestas. Inspired by brutal code reviews, o app avalia a qualidade do seu código e mostra o quão ruim ele realmente é — com muito humor.
+DevRoast é uma aplicação web que analisa seu código e o "assa" com críticas brutais e honestas. Inspirado em revisões de código implacáveis, o app avalia a qualidade do seu código e mostra o quão ruim ele realmente é — com muito humor.
 
 ## Funcionalidades
 
